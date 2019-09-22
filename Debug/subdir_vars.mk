@@ -6,29 +6,42 @@ SHELL = cmd.exe
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CMD_SRCS += \
-../hello_ccs.cmd 
+../main_ccs.cmd 
 
 C_SRCS += \
-../hello.c \
-../startup_ccs.c 
+../button.c \
+../main.c \
+../startup_ccs.c \
+../uart.c 
 
 C_DEPS += \
-./hello.d \
-./startup_ccs.d 
+./button.d \
+./main.d \
+./startup_ccs.d \
+./uart.d 
 
 OBJS += \
-./hello.obj \
-./startup_ccs.obj 
+./button.obj \
+./main.obj \
+./startup_ccs.obj \
+./uart.obj 
 
 OBJS__QUOTED += \
-"hello.obj" \
-"startup_ccs.obj" 
+"button.obj" \
+"main.obj" \
+"startup_ccs.obj" \
+"uart.obj" 
 
 C_DEPS__QUOTED += \
-"hello.d" \
-"startup_ccs.d" 
+"button.d" \
+"main.d" \
+"startup_ccs.d" \
+"uart.d" 
 
 C_SRCS__QUOTED += \
-"../startup_ccs.c" 
+"../button.c" \
+"../main.c" \
+"../startup_ccs.c" \
+"../uart.c" 
 
 

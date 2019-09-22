@@ -26,6 +26,8 @@ hello.obj: C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/interrupt.h
 hello.obj: C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/fpu.h
 hello.obj: C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/rom.h
 hello.obj: C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/timer.h
+hello.obj: ../button.h
+hello.obj: ../uart.h
 
 ../hello.c: 
 C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include/stdint.h: 
@@ -53,3 +55,5 @@ C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/interrupt.h:
 C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/fpu.h: 
 C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/rom.h: 
 C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/timer.h: 
+../button.h: 
+../uart.h: 
